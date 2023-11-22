@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./images/favicon.svg" type="image/x-icon">
+  <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="stylesheets/reset.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="stylesheets/responsive.css">
+  <title>Fiver</title>
+</head>
+<body>
+  <header>
+    <div class="menu-container">
+      <div class="menu">
+        <div class="container">
+          <a href="index.html">
+            <img class="logo" src="./images/logo.svg" alt="logo">
+          </a>
+          <a id="y-pos" href="index.html">Главная</a>
+          <a href="store.html">Магазин</a>
+          <div class="dropdown">
+              <a href="#">Блог</a>
+              <div class="dropdown-content">
+                  <a href="blog.html" target="_self">Статья</a>
+                  <a href="#water" target="_self">Перейти к фрагменту</a>
+              </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </header>
+  <div class="cover">
+    <img class="desktop-main" src="./images/main.svg" alt="cover">
+    <img class="mobile-main" src="./images/mob-index-cover.svg" alt="cover">
+  </div>
+  <h1 class="main-tittle">Мы являемся экологически чистой альтернативой пластиковым бутылкам для воды. Откажитесь от пластиковых бутылок. Сажайте деревья вместе с нами, используя #BetterPlanet Вода в коробках на 100 % чистая, на 92 % экологически безопасно упакована и на 100 % пригодна для вторичной переработки. Давайте вместе построим #BetterPlanet.</h1>
+  <div class="images-contauner">
+    <div class="bottle-1">
+      <img class="desktop-bottle-1" src="./images/bottle-1.svg" alt="bottle-1">
+      <img class="mob-bottle-1" src="./images/mob-bottle-1.svg" alt="mob-bottle-1">
+      <figcaption>Boxed water is even better</figcaption>
+    </div>
+    <div class="bottle-2">
+      <img class="desktop-bottle-2" src="./images/bottle-2.svg" alt="bottle-1">
+      <img class="mob-bottle-2" src="./images/mob-bottle-2.svg" alt="mob-bottle-1">
+      <figcaption>Boxed water is even better</figcaption>
+    </div>
+  </div>
+  <div class="form-container">
+    <h2 class="pred">Оформить предзаказ</h2>
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+      <p>Для поисковика:<input type="Text"  name="q" value="search"></p>
+      <p>Количество бутылок:<input type="Text" name="last_name" size=20  value="2"></p>
+      <p>Количество упаковок (по 5 шт): <input type="Number" name="age" size=20 value="0"></p>
+      <p>Время доставкки:
+          <input type="Radio" name="time" value="Moscow">15:00
+          <input type="Radio" name="time" value="Nizhny" checked >19:00
+      </p>
+  
+      <p>Дата доставки: <input type="date" name="user_date"  value='2023-11-13'></p>
+      <p>Промокод<input type="Password" name="password" size=9  value="123"></p>
+  
+      <input type="hidden" name="function"  value="page">
+      <input type="hidden" name="page_id"  value="3">
+  
+      <p>
+          <input type="Submit" class="button-send" name="submit"  value="Отправить">
+      </p>
+  
+  </form>
+  </div>
+  <script src="javascripts/js.js"></script>
+</body>
+</html>
